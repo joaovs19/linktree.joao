@@ -1,8 +1,7 @@
 .container-fluid{
-  min-height: 100vh;
-  //background: -webkit-linear-gradient(90deg, #000000,#43034f,#000000);
-  //background: linear-gradient(90deg, #000000,#43034f,#000000);
-  background: -webkit-linear-gradient(90deg, #000000,#1b2998,#000000);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #000000,#1b2998,#000000);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 105vh;
+  background: -webkit-linear-gradient(90deg, #000000,#1b2998,#000000);
+  background: linear-gradient(90deg, #000000,#1b2998,#000000);
 }
 
 button:focus{
@@ -21,10 +20,10 @@ button:focus{
 }
 
 .ftperfil{
-  width: 160px; // Largura desejada para a imagem
+  width: 160px;
   height: 160px;
-  object-fit: cover; // Mantém a qualidade da imagem sem distorção, cobrindo o espaço
-  border-radius: 50%; // Para deixar a imagem redonda
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .username{
@@ -36,15 +35,15 @@ p{
   color: #FFFFFF;
 }
 .buttonContact a {
-  text-decoration: none; // Remove o underline do link
+  text-decoration: none;
   color: inherit;
-  width: 100%; // Ocupa toda a largura do contêiner
+  width: 100%;
 }
 
 .contact-btn {
   display: flex;
   align-items: center;
-  justify-content: start; // Alinha o conteúdo à esquerda
+  justify-content: start;
   background-color: #FFFFFF;
   color: #000000;
   border: none;
@@ -69,7 +68,17 @@ p{
   }
 
   .button-text {
-    flex-grow: 1; // Expande o texto para centralizá-lo
-    text-align: center; // Centraliza o texto dentro de seu espaço
+    flex-grow: 1;
+    text-align: center;
   }
+}
+.footer {
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 14px;
 }
