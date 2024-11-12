@@ -1,0 +1,75 @@
+.container-fluid{
+  min-height: 100vh;
+  //background: -webkit-linear-gradient(90deg, #000000,#43034f,#000000);
+  //background: linear-gradient(90deg, #000000,#43034f,#000000);
+  background: -webkit-linear-gradient(90deg, #000000,#1b2998,#000000);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #000000,#1b2998,#000000);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button:focus{
+  border: 0 none;
+  overflow: hidden;
+}
+
+.options{
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.ftProfile{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ftperfil{
+  width: 160px; // Largura desejada para a imagem
+  height: 160px;
+  object-fit: cover; // Mantém a qualidade da imagem sem distorção, cobrindo o espaço
+  border-radius: 50%; // Para deixar a imagem redonda
+}
+
+.username{
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+p{
+  color: #FFFFFF;
+}
+.buttonContact a {
+  text-decoration: none; // Remove o underline do link
+  color: inherit;
+  width: 100%; // Ocupa toda a largura do contêiner
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  justify-content: start; // Alinha o conteúdo à esquerda
+  background-color: #FFFFFF;
+  color: #000000;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: 500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  width: 100%;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .button-text {
+    flex-grow: 1; // Expande o texto para centralizá-lo
+    text-align: center; // Centraliza o texto dentro de seu espaço
+  }
+}
